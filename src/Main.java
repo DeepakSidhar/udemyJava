@@ -77,7 +77,14 @@ public class Main {
 //        System.out.println("THe sum of number 123 is " +DigitSumChallenge.sumDigits(12334));
 //        System.out.println("THe sum of number  -123 is " +DigitSumChallenge.sumDigits(-123));
  //       System.out.println(NumberPalindrome.isPalindrome(-101));
-        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(10));
+//        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(-1));
+//        System.out.println(EvenDigitSum.getEvenDigitSum(-22));
+
+//        System.out.println(SharedDigit.hasSharedDigit(15,55));
+
+//        System.out.println(LastDigitChecker.hasSameLastDigit(9,99,999));
+//        System.out.println(LastDigitChecker.isValid(1051));
+        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(25,15));
 
 
 

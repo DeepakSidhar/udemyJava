@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class FactorPrinter {
+public class FactorPrinter {
+//    public static int printFactors(int x){
+//
+//    }
 }

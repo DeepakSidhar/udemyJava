@@ -10,11 +10,14 @@ public class FirstLastDigitSum {
          int lastDigit = number % 10;
          int firstDigit = 0;
 
-         while(number == 0){
-             firstDigit = number /10;
+
+         while(number != 0){
+             firstDigit = number%10;
+             number /= 10;
          }
 
          return(lastDigit + firstDigit);
+
 
 
 
