@@ -84,7 +84,47 @@ public class Main {
 
 //        System.out.println(LastDigitChecker.hasSameLastDigit(9,99,999));
 //        System.out.println(LastDigitChecker.isValid(1051));
-        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(25,15));
+//        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(25,15));
+//        System.out.println(FlourPacker.canPack(0,5,4));
+//        System.out.println(LargestPrime.getLargestPrime(45));
+//        System.out.println(ReadingUserInputChallenge.readChallenge());
+//        SimpleCalculator calculator = new SimpleCalculator();
+//        calculator.setFirstNumber(5.0);
+//        calculator.setSecondNumber(4);
+//        System.out.println("add= " + calculator.getAdditionResult());
+//        System.out.println("subtract= " + calculator.getSubtractionResult());
+//        calculator.setFirstNumber(5.25);
+//        calculator.setSecondNumber(0);
+//        System.out.println("multiply= " + calculator.getMultiplicationResult());
+//        System.out.println("divide= " + calculator.getDivisionResult());
+//
+//        calculator.setFirstNumber(0.0);
+//        calculator.setSecondNumber(1.25);
+//        System.out.println("subtract= " + calculator.getSubtractionResult());
+
+//        Person person = new Person();
+//        person.setFirstName("");   // firstName is set to empty string
+//        person.setLastName("");    // lastName is set to empty string
+//        person.setAge(10);
+//        System.out.println("fullName= " + person.getFullName());
+//        System.out.println("teen= " + person.isTeen());
+//        person.setFirstName("John");    // firstName is set to John
+//        person.setAge(-5);
+//        System.out.println("fullName= " + person.getFullName());
+//        System.out.println("teen= " + person.isTeen());
+//        person.setLastName("Smith");    // lastName is set to Smith
+//        System.out.println("fullName= " + person.getFullName());
+//        System.out.println("age= " + person.getAge());
+
+        BankAccount ba = new BankAccount();
+        ba.setAccount(1201);
+        System.out.println(ba.getAccount());
+        System.out.println(ba.getBalance());
+        ba.deposit(100);
+        System.out.println(ba.getBalance());
+        ba.withdraw(101);
+        System.out.println(ba.getBalance());
+
 
 
 
