@@ -116,14 +116,29 @@ public class Main {
 //        System.out.println("fullName= " + person.getFullName());
 //        System.out.println("age= " + person.getAge());
 
-        BankAccount ba = new BankAccount();
-        ba.setAccount(1201);
-        System.out.println(ba.getAccount());
-        System.out.println(ba.getBalance());
-        ba.deposit(100);
-        System.out.println(ba.getBalance());
-        ba.withdraw(101);
-        System.out.println(ba.getBalance());
+      //  BankAccount ba = new BankAccount("1234", 0.00, "Bob Brown", "bbrown@amail.com", "0208 555 5555" );
+//        BankAccount ba = new BankAccount();
+//        System.out.println(ba.getAccount());
+//        System.out.println(ba.getCustomerName());
+//        System.out.println(ba.getBalance());
+        VipCustomer vip = new VipCustomer();
+        System.out.println(vip.getName());
+        System.out.println(vip.getCreditLimit());
+        System.out.println(vip.getEmail());
+
+        VipCustomer vip1 = new VipCustomer("dave", 1000.00, "dave@fave");
+        System.out.println(vip1.getName());
+        System.out.println(vip1.getCreditLimit());
+        System.out.println(vip1.getEmail());
+
+        VipCustomer vip2 = new VipCustomer("bob", 500.00);
+        System.out.println(vip2.getName());
+        System.out.println(vip2.getCreditLimit());
+        System.out.println(vip2.getEmail());
+
+
+
+
 
 
 

@@ -1,15 +1,38 @@
+import java.sql.SQLOutput;
+
 public class BankAccount {
-    private double account;
+    private String account;
     private double balance;
     private String customerName;
     private String email;
     private String phoneNumber;
 
-    public void setAccount(double account){
+    public BankAccount(){
+        this("56789",250, "Default name ", "default email", "default number" );
+        // this used above calls a constructor within a constructor. Needs to be on the first line. so line 11 is calling line 20  with the default values  if this is called.
+        // Need to be the same name as the  class
+        // only called once  when the object is created.
+        // The constructior can be overloaded as long as you have different parameters
+        System.out.println("Empty constructor called ");
+
+    }
+
+    public BankAccount(String account, double balance, String customerName, String email, String phoneNumber){
+        System.out.println("Account constructor with parameters called  ");
+        this.account = account;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+
+    }
+
+
+    public void setAccount(String account){
         this.account = account;
     }
 
-    public double getAccount(){
+    public String getAccount(){
         return this.account;
     }
 
