@@ -121,20 +121,38 @@ public class Main {
 //        System.out.println(ba.getAccount());
 //        System.out.println(ba.getCustomerName());
 //        System.out.println(ba.getBalance());
-        VipCustomer vip = new VipCustomer();
-        System.out.println(vip.getName());
-        System.out.println(vip.getCreditLimit());
-        System.out.println(vip.getEmail());
+//        VipCustomer vip = new VipCustomer();
+//        System.out.println(vip.getName());
+//        System.out.println(vip.getCreditLimit());
+//        System.out.println(vip.getEmail());
+//
+//        VipCustomer vip1 = new VipCustomer("dave", 1000.00, "dave@fave");
+//        System.out.println(vip1.getName());
+//        System.out.println(vip1.getCreditLimit());
+//        System.out.println(vip1.getEmail());
+//
+//        VipCustomer vip2 = new VipCustomer("bob", 500.00);
+//        System.out.println(vip2.getName());
+//        System.out.println(vip2.getCreditLimit());
+//        System.out.println(vip2.getEmail());
+         Wall wall = new Wall(0.0,1.25);
+   //   Wall wall = new Wall(4.5,2.0);
+    //    Wall wall = new Wall(-1.25,-1.25);
+         System.out.println("area= " + wall.getArea());
+     //   System.out.println("width= " + wall.getWidth());
+    //    System.out.println("height= " + wall.getHeight());
 
-        VipCustomer vip1 = new VipCustomer("dave", 1000.00, "dave@fave");
-        System.out.println(vip1.getName());
-        System.out.println(vip1.getCreditLimit());
-        System.out.println(vip1.getEmail());
+        Carpet carpet = new Carpet(3.5);
+        Floor floor = new Floor(2.75, 4.0);
+        Calculator calculator = new Calculator(floor, carpet);
+        System.out.println("total= " + calculator.getTotalCost());
+        carpet = new Carpet(1.5);
+        floor = new Floor(5.4, 4.5);
+        calculator = new Calculator(floor, carpet);
+        System.out.println("total= " + calculator.getTotalCost());
 
-        VipCustomer vip2 = new VipCustomer("bob", 500.00);
-        System.out.println(vip2.getName());
-        System.out.println(vip2.getCreditLimit());
-        System.out.println(vip2.getEmail());
+
+
 
 
 
