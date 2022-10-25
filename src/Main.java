@@ -1,3 +1,5 @@
+import com.sun.security.jgss.GSSUtil;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("hello");
@@ -135,21 +137,75 @@ public class Main {
 //        System.out.println(vip2.getName());
 //        System.out.println(vip2.getCreditLimit());
 //        System.out.println(vip2.getEmail());
-         Wall wall = new Wall(0.0,1.25);
-   //   Wall wall = new Wall(4.5,2.0);
-    //    Wall wall = new Wall(-1.25,-1.25);
-         System.out.println("area= " + wall.getArea());
-     //   System.out.println("width= " + wall.getWidth());
-    //    System.out.println("height= " + wall.getHeight());
+//         Wall wall = new Wall(0.0,1.25);
+//   //   Wall wall = new Wall(4.5,2.0);
+//    //    Wall wall = new Wall(-1.25,-1.25);
+//         System.out.println("area= " + wall.getArea());
+//     //   System.out.println("width= " + wall.getWidth());
+//    //    System.out.println("height= " + wall.getHeight());
+//
+//        Carpet carpet = new Carpet(3.5);
+//        Floor floor = new Floor(2.75, 4.0);
+//        Calculator calculator = new Calculator(floor, carpet);
+//        System.out.println("total= " + calculator.getTotalCost());
+//        carpet = new Carpet(1.5);
+//        floor = new Floor(5.4, 4.5);
+//        calculator = new Calculator(floor, carpet);
+//        System.out.println("total= " + calculator.getTotalCost());
 
-        Carpet carpet = new Carpet(3.5);
-        Floor floor = new Floor(2.75, 4.0);
-        Calculator calculator = new Calculator(floor, carpet);
-        System.out.println("total= " + calculator.getTotalCost());
-        carpet = new Carpet(1.5);
-        floor = new Floor(5.4, 4.5);
-        calculator = new Calculator(floor, carpet);
-        System.out.println("total= " + calculator.getTotalCost());
+
+//    BMW bmw = new BMW(true , false);
+//    bmw.accelerate(20);
+//    bmw.setSteer("forward");
+//        System.out.println(bmw.getSpeed());
+//        System.out.println(bmw.getGears());
+//        System.out.println(bmw.getGears());
+//        System.out.println(bmw.getCurrentGear());
+
+//
+//        Circle circle = new Circle(3.75);
+//        System.out.println("circle.radius= " + circle.getRadius());
+//        System.out.println("circle.area= " + circle.getArea());
+//        Cylinder cylinder = new Cylinder(5.55, 7.25);
+//        System.out.println("cylinder.radius= " + cylinder.getRadius());
+//        System.out.println("cylinder.height= " + cylinder.getHeight());
+//        System.out.println("cylinder.area= " + cylinder.getArea());
+//        System.out.println("cylinder.volume= " + cylinder.getVolume());
+//
+//        Rectangle rectangle = new Rectangle(5, 10);
+//        System.out.println("1 rectangle.width= " + rectangle.getWidth());
+//        System.out.println("2 rectangle.length= " + rectangle.getLength());
+//        System.out.println("3 rectangle.area= " + rectangle.getArea());
+//        Cuboid cuboid = new Cuboid(5,10,5);
+//        System.out.println("1c cuboid.width= " + cuboid.getWidth());
+//        System.out.println("2c cuboid.length= " + cuboid.getLength());
+//        System.out.println("3c cuboid.area= " + cuboid.getArea());
+//        System.out.println("4c cuboid.height= " + cuboid.getHeight());
+//        System.out.println("cuboid.volume= " + cuboid.getVolume());
+
+//        Room r1 = new Room(10, 20,new Bed(2.0, 1.0),new Window(3.0,4.0));
+//        System.out.println(r1.getBed().toString());
+//        System.out.println(r1.getWindow().toString());
+
+//        Walls wall1 = new Walls("West");
+//        Walls wall2 = new Walls("East");
+//        Walls wall3 = new Walls("North");
+//        Walls wall4 = new Walls("South");
+//
+//        Ceiling ceiling = new Ceiling( 12, 55);
+//
+//        Bed bed = new Bed("double", 3, 10,4,4);
+//
+//        Lamp lamp = new Lamp("modern", false, 76);
+//
+//        Bedroom bedroom = new Bedroom("Master Bedroom", wall1, wall2, wall3, wall4,ceiling,bed,lamp );
+//
+//        bedroom.makeBed();
+//        bedroom.getLamp().turnOn();
+
+
+
+
 
 
 
