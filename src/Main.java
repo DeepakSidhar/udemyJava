@@ -202,8 +202,61 @@ public class Main {
 //
 //        bedroom.makeBed();
 //        bedroom.getLamp().turnOn();
+//        Walls2 wall1 = new Walls2("West");
+//        Walls2 wall2 = new Walls2("East");
+//        Walls2 wall3 = new Walls2("South");
+//        Walls2 wall4 = new Walls2("North");
+//
+//        Ceilings ceiling = new Ceilings(12, 55);
+//
+//        Beds bed = new Beds("Modern", 4, 3, 2, 1);
+//
+//        Lamps lamp = new Lamps("Classic", false, 75);
+//
+//        Bedrooms2 bedRoom = new Bedrooms2("YOUR NAME HERE", wall1, wall2, wall3, wall4, ceiling, bed, lamp);
+//
+//        bedRoom.makeBed();
+//
+//        bedRoom.getLamp().turnOn();
 
+//        Printer print = new Printer(50,true);
+//        System.out.println("Intial page count = " + print.getPagesPrinted());
+//        int pagesPrinted = print.printPages(4);
+//        System.out.println("Pages printed was  = " + pagesPrinted + " new total print count is " + print.getPagesPrinted());
+//        pagesPrinted = print.printPages(2);
+//        System.out.println("Pages printed was  = " + pagesPrinted + " new total print count is " + print.getPagesPrinted());
+//        System.out.println(print.getToner());
+//        System.out.println(print.getPagesPrinted());
+//        print.setToner(10);
+//        System.out.println(print.getToner());
 
+//        Printer printer = new Printer(50, true);
+//        System.out.println(printer.addToner(50));
+//        System.out.println("initial page count = " +printer.getPagesPrinted());
+//        int pagesPrinted = printer.printPages(4);
+//        System.out.println("Pages printed was " + pagesPrinted +" new total print count for printer = " +printer.getPagesPrinted());
+//        pagesPrinted = printer.printPages(2);
+//        System.out.println("Pages printed was " + pagesPrinted +" new total print count for printer = " +printer.getPagesPrinted());
+
+        MoterCar car = new MoterCar(8, "Base car");
+        System.out.println(car.startEngine());
+        System.out.println(car.accelerate());
+        System.out.println(car.brake());
+
+        Mitsubishi mitsubishi = new Mitsubishi(6, "Outlander VRX 4WD");
+        System.out.println(mitsubishi.startEngine());
+        System.out.println(mitsubishi.accelerate());
+        System.out.println(mitsubishi.brake());
+
+        Ford ford = new Ford(6, "Ford Falcon");
+        System.out.println(ford.startEngine());
+        System.out.println(ford.accelerate());
+        System.out.println(ford.brake());
+
+        Holden holden = new Holden(6, "Holden Commodore");
+        System.out.println(holden.startEngine());
+        System.out.println(holden.accelerate());
+        System.out.println(holden.brake());
 
 
 
